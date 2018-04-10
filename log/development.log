@@ -1,0 +1,170 @@
+Started GET "/" for 127.0.0.1 at 2018-04-10 12:54:20 +0200
+Processing by StateController#index as HTML
+  Rendering state/index.html.erb within layouts/application
+  Rendered state/index.html.erb within layouts/application (150.1ms)
+Completed 200 OK in 164ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 12:54:22 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+SQLite3::SQLException (no such table: markov):
+  
+app/models/state.rb:11:in `block (2 levels) in speak'
+app/models/state.rb:9:in `each'
+app/models/state.rb:9:in `block in speak'
+app/models/state.rb:8:in `speak'
+app/controllers/state_controller.rb:17:in `block (2 levels) in show'
+app/controllers/state_controller.rb:12:in `show'
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.3ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (10.8ms)
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 12:54:27 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+SQLite3::SQLException (no such table: markov):
+  
+app/models/state.rb:11:in `block (2 levels) in speak'
+app/models/state.rb:9:in `each'
+app/models/state.rb:9:in `block in speak'
+app/models/state.rb:8:in `speak'
+app/controllers/state_controller.rb:17:in `block (2 levels) in show'
+app/controllers/state_controller.rb:12:in `show'
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.3ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.3ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (8.9ms)
+Started GET "/state/Der?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 12:54:31 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+SQLite3::SQLException (no such table: markov):
+  
+app/models/state.rb:11:in `block (2 levels) in speak'
+app/models/state.rb:9:in `each'
+app/models/state.rb:9:in `block in speak'
+app/models/state.rb:8:in `speak'
+app/controllers/state_controller.rb:17:in `block (2 levels) in show'
+app/controllers/state_controller.rb:12:in `show'
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/mads/.rvm/gems/ruby-2.5.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (9.8ms)
+Started GET "/" for 127.0.0.1 at 2018-04-10 13:17:47 +0200
+Processing by StateController#index as HTML
+  Rendering state/index.html.erb within layouts/application
+  Rendered state/index.html.erb within layouts/application (153.4ms)
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:48 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:50 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:50 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:51 +0200
+Processing by StateController#index as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3"}
+  Rendering state/index.html.erb within layouts/application
+  Rendered state/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hej?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:54 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hej"}
+Completed 200 OK in 22ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hej?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:55 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hej"}
+Completed 200 OK in 21ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hej?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:56 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hej"}
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hej?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:56 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hej"}
+Completed 200 OK in 23ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hej?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:17:56 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hej"}
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-10 13:21:59 +0200
+Processing by StateController#index as HTML
+  Rendering state/index.html.erb within layouts/application
+  Rendered state/index.html.erb within layouts/application (147.3ms)
+Completed 200 OK in 158ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:22:02 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 200 OK in 47ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Der%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:22:07 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Der er"}
+Completed 200 OK in 22ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hvis%20er?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:22:15 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hvis er"}
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/state/Hvis?left_size=3&right_size=3" for 127.0.0.1 at 2018-04-10 13:22:17 +0200
+Processing by StateController#show as JSON
+  Parameters: {"left_size"=>"3", "right_size"=>"3", "id"=>"Hvis"}
+Completed 200 OK in 25ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+

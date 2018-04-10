@@ -2,7 +2,7 @@
 require "sqlite3"
 
 
-db = SQLite3::Database.new "database.db"
+db = SQLite3::Database.new "../db/database.db"
 result = ARGV[0].to_s.split(" ")
 amount = (ARGV[1] || 50).to_i
 LEFT_MAX_SIZE = (ARGV[2] || 7).to_i

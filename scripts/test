@@ -1,0 +1,64 @@
+Hvis virksomheder har tænkt sig at bruge machine learning-modeller til at tage beslutninger, som vedrører kunder, skal de være klar til at forklare skridt for skridt, hvordan algoritmen kommer frem til sit resultat.
+Version2 Infosecurity
+
+It-sikkerhedsmessen Infosecurity Denmark 2018 byder på mere end 110 seminarer og cases, 25 udvalgte keynotes og 80 udstillere. To dage med masser af faglig viden og netværk d. 2. og 3. maj i Øksnehallen i København.
+
+Konferenceprogrammet dækker både compliance, cybercrime, IoT, nye teknologier som AI og blockchain samt cloud security og giver et unikt indblik i de nyeste it-sikkerhedsmæssige udfordringer på et højt fagligt niveau.
+
+Du bliver opdateret om både de nyeste tekniske landvindinger fra spydspidsforskere og får indblik i aktuelle trusselsbilleder fra nogle af verdens bedste rådgivere.
+
+Flere oplysninger
+
+Vil du gå direkte til tilmelding, klik her.
+
+Og det er ikke tilstrækkeligt at skyde skylden på teknikken, siger EU’s danske konkurrencekommissær, Margrethe Vestager.
+
+»Det er ikke nok at sige: ‘Se, hvad den har lavet – jeg ved ikke hvordan’. Det er ikke godt nok. Det ville vi aldrig acceptere i nogen andre sammenhænge,« forklarer hun.
+
+»Det kan ikke være anderledes, end at der er nogen, der ejer algoritmen. Og at algoritmen skal vide, hvad den må og ikke må.«
+
+Læs også: Margrethe Vestager: Prøv noget andet end Google
+
+En stærkere regulering af machine learning-algoritmer er faktisk kommet nærmere. Et forhold, som flere store leverandører har indset, fortæller Carlton E. Sapp, der er research director hos Gartner.
+
+»En stor del af markedet – som Salesforce, IBM og Microsoft – er allerede i gang med at bygge den kapacitet ind i deres systemer. Så det kommer vi til at se i nye udgaver af deres software,« siger han og fortsætter:
+
+»De kommer ikke bare til at giver dig et resultat, men de vil også forklare, hvordan det resultat blev skabt, hvor data kom fra og så videre.«
+
+Den type viden kommer til at være en fast del af et workflow for virksomheder, der arbejder med machine learning, mener Carlton E. Sapp.
+Fravælger komplekse modeller
+
+Et af de steder, hvor uigennemsigtige analysemodeller allerede i dag støder mod regulering, er hos forsyningsselskaber.
+
+Hos Centrica, der blandt andet ejer British Gas, har man i flere tilfælde undgået de mere komplekse analyse-modeller, fordi de er for svære at forklare interessenter, hvordan de fungerer.
+
+Det fortalte Paul Malley, der er head of customer data analytics, på Gartners konference om data og analytics, der fandt sted i London tidligere på måneden.
+
+Centrica bruger blandt andet machine learning til at forudsige om nye kunder kan få problemer med at betale energi-regningen.
+
+Læs også: Neurale netværks autonome natur kan true lovligheden af din forretning
+
+»Det har en reel effekt på kunden,« forklarer Paul Malley.
+
+»Vi bruger modellen til at bestemme, om vi skal afvise en virksomhed som kunde, om vi skal bede om betalingen på forhånd eller noget andet. Vi er nødt til at være meget granuleret med detaljer, og derfor vil vi bruge mere konventionelle metoder.«
+
+De konventionelle metoder kunne f.eks. være linear regression frem for deep learning.
+
+»De komplekse modeller er meget sværere at forklare på en detaljeret måde til stakeholders. Hvis vi bliver auditeret og skal forklare, præcis hvad vi gør, så giver de løsninger problemer,« understreger Paul Malley.
+Ethical Auditor
+
+Udfordringen med at kunne stå til ansvar for beslutninger, der træffes af algoritmer, vil kun blive større fremadrettet, vurderer Carlton E. Sapp.
+
+Han ser en tendens til, at selskaber vil udpege en såkaldt Citizen Ethical Auditor, hvis opgave det bliver, at holde machine learning-algoritmerne forståelige og etisk forsvarlige.
+
+»Jeg tror, det kommer til at være almindeligt i både små og store selskaber, fordi vi kommer alle til at være ansvarlige for at forstå, hvorfor vi laver de beslutninger, vi laver,« siger Carlton E. Sapp.
+
+»Vi har brug for at vide, om vi gør det rigtige. Ikke om vi gør det rigtigt, men om vi gør det rigtige.«
+
+Læs også: Forskere udvikler test til at afsløre racistiske algoritmer
+
+Sapp har selv arbejdet i anklagemyndigheden i USA, hvor han blev bedt om at lave en model, der kunne forudsige, hvilke sager der højst sandsynligt ville lede til en dom. Opgaven lykkedes, men algoritmen havde samtidig en klar tendens til at udpege sager, hvor den tiltalte var fattig og fra en minoritetsgruppe.
+
+I sådan en sag vil kunder, borgere og myndigheder ikke stille sig tilfreds med, at man peger på en sort boks, understreger Carlton E. Sapp.
+
+»Vi skal folde det ud. Vi skal kunne se, hvordan algoritmens intelligente komponenter kom frem til det svar, de kom frem til. Det har vi et ansvar for.«
